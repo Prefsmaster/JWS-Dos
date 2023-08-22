@@ -26,7 +26,7 @@ CRLF            .EQU       1A2A
 CHIN            .EQU       104D              ; Lees karakter in van toetsenbord.
 COUT            .EQU       104A              ; Zet de waarde in de accumulator op het scherm.
 UIT             .EQU       1AE1              ; Cursor OFF
-NSCH            .EQU       3383              ; print 0-terminted string to screen
+NSCH            .EQU       3383              ; print 0-terminated string to screen
 
 INI1            .EQU       6020              ; interrupt vector 1
 INI2            .EQU       6022              ; interrupt vector 2
